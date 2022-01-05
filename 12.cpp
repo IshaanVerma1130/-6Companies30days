@@ -1,0 +1,11 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+class Solution
+{
+public:
+  long long squaresInChessBoard(long long n)
+  {
+    return ((n * (n + 1) * (2 * n + 1)) / 6);
+  }
+};
